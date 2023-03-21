@@ -1,0 +1,54 @@
+{
+  "nav": [
+    { "text": "Trang chủ", "to": "/" },
+    { "text": "Trang giới thiệu", "to": "/about" },
+    { "text": "Liên hệ", "to": "/contact" }
+  ],
+  "self": {
+    "title": "Xây dựng sự hiện diện trực tuyến của bạn với Oleg Rõbnikov Web Development",
+    "text": [
+      "Xin chào, tôi là Oleg Rõbnikov, một nhà phát triển web chuyên nghiệp với nhiều năm kinh nghiệm trong việc xây dựng trang web và cửa hàng trực tuyến. Tôi chuyên cung cấp các giải pháp tùy chỉnh đáp ứng nhu cầu kinh doanh riêng của bạn. Các dịch vụ của tôi được thiết kế để nâng cao sự hiện diện trực tuyến của bạn và làm cho nó giúp bạn dễ dàng quản lý trang web hoặc cửa hàng trực tuyến của mình. Hãy để tôi giới thiệu cho bạn các sản phẩm và tính năng bổ sung của tôi có thể giúp bạn đạt được mục tiêu của mình."
+    ]
+  },
+  "prod": [
+    {
+      "name": "blog",
+      "title": "Blog cá nhân hoặc trang chủ-giới thiệu-liên hệ",
+      "slogan": "Hãy giới thiệu bản thân với Blog cá nhân hoặc trang Trang chủ-Giới thiệu-Liên hệ của chúng tôi!",
+      "price": "Bao gồm 3 ngày làm việc. Giá: bắt đầu từ 150 EUR.",
+      "text": [
+        "Oleg Rõbnikov Web Development cung cấp một Blog cá nhân hoặc trang Trang chủ-Giới thiệu-Liên hệ hoàn hảo cho các cá nhân hoặc doanh nghiệp nhỏ muốn giới thiệu thương hiệu cá nhân hoặc thông tin kinh doanh của họ. Tôi hợp tác với bạn để tạo một trang web có nội dung có thể chỉnh sửa và có thể mở rộng thành một hệ thống quản lý nội dung cho các hoạt động viết blog hoặc xuất bản khác của bạn. Dự án chỉ mất 3 ngày làm việc và bắt đầu với mức giá 150 EUR. Tôi tận tâm cung cấp trải nghiệm khách hàng tốt nhất cho khách hàng của mình và tôi tự hào mang đến những sản phẩm hàng đầu giải pháp notch đáp ứng nhu cầu cụ thể của họ."
+      ]
+    },
+    {
+      "name": "biz",
+      "title": "Trang Doanh nghiệp hoặc Ứng dụng Trang Đơn",
+      "slogan": "Nâng cao doanh nghiệp của bạn với Trang Doanh nghiệp hoặc Ứng dụng Trang Đơn của chúng tôi!",
+      "price": "Bao gồm 5 ngày làm việc. Giá: bắt đầu từ 270 EUR.",
+      "text": [
+        "Đối với các doanh nghiệp lớn hơn, tôi cung cấp Trang Doanh nghiệp hoặc Ứng dụng Trang Đơn có thể giúp nâng doanh nghiệp của bạn lên cấp độ tiếp theo. Dự án cơ sở của tôi bao gồm nhiều hơn ba tuyến đường và bản trình bày động nội dung của bạn và sau đó có thể được mở rộng thành Ứng dụng Web lũy tiến cung cấp trải nghiệm người dùng tốt hơn cho khách hàng của bạn. Tôi hợp tác chặt chẽ với bạn để đảm bảo rằng sản phẩm cuối cùng đáp ứng nhu cầu kinh doanh của bạn và vượt quá mong đợi của bạn."
+      ]
+    },
+    {
+      "name": "shop",
+      "title": "Cửa hàng trực tuyến/trang thương mại điện tử",
+      "slogan": "Tăng doanh số bán hàng của bạn với Cửa hàng trực tuyến/trang thương mại điện tử của chúng tôi!",
+      "price": "Bắt đầu từ 450 EUR.",
+      "text": [
+        "Nếu bạn đang muốn bán sản phẩm của mình trực tuyến, tôi có thể tạo một Cửa hàng trực tuyến/trang thương mại điện tử với thẻ sản phẩm và hệ thống thanh toán. Oleg Rõbnikov Web Development có thể giúp bạn tạo một cửa hàng trực tuyến đáp ứng nhu cầu kinh doanh của bạn."
+      ]
+    }
+  ],
+  "extras": {
+    "title": "Ngôn ngữ, Lưu trữ, SEO và Dự án tùy chỉnh",
+    "text": [
+      "Tôi cung cấp nhiều tính năng bổ sung có thể giúp bạn cải thiện trang web hoặc cửa hàng trực tuyến của mình. Chúng bao gồm:",
+      "Có sẵn các ngôn ngữ bổ sung: tiếng Anh, tiếng Nga, tiếng Đức, tiếng Estonia, tiếng Việt, tiếng Trung có tính phí bổ sung.",
+      "Bạn sẽ cần dịch vụ lưu trữ và tên miền cho trang web của mình. Bạn có thể sử dụng dịch vụ của riêng mình hoặc tôi có thể cung cấp cho bạn với một khoản phí bổ sung.",
+      "Tối ưu hóa Công cụ Tìm kiếm cũng là một tính năng bổ sung. Tôi có thể giúp bạn tối ưu hóa trang web của mình cho các công cụ tìm kiếm, điều này sẽ giúp bạn xếp hạng cao hơn trong kết quả tìm kiếm và tăng lưu lượng truy cập trang web của bạn. Tôi tối ưu hóa bản thân việc xây dựng trang web để có tốc độ tải tốt nhất và cung cấp từ khóa , mô tả và quản lý nội dung với sự trợ giúp của Trí tuệ nhân tạo với một khoản phụ phí. Tính năng này có thể tăng thời gian gửi, nhưng nó rất đáng để đầu tư. Mục tiêu của tôi là giúp bạn đạt được kết quả tốt nhất có thể từ trang web hoặc cửa hàng trực tuyến của mình .",
+      "Cuối cùng, tôi cung cấp các dự án tùy chỉnh bao gồm mở rộng dự án hiện tại của bạn hoặc thực hiện các thay đổi để nâng cao thiết kế đồ họa, hiệu suất hoặc nội dung. Tôi tính phí theo giờ hoặc theo ngày hoặc theo tuần, tùy thuộc vào nhu cầu của bạn. Tôi cam kết cung cấp mức giá minh bạch và cam kết cao chất lượng dịch vụ cho tất cả các khách hàng của tôi."
+    ],
+    "price": ["20 EUR/ giờ", "150 EUR/ ngày làm việc 8 giờ", "700 EUR/ tuần 5 ngày"]
+  },
+  "action": "Hãy liên hệ với Oleg Rõbnikov Web Development ngay hôm nay để tìm hiểu thêm về các dịch vụ của chúng tôi và cách chúng tôi có thể giúp bạn tạo sự hiện diện trực tuyến đại diện cho thương hiệu của bạn!"
+}

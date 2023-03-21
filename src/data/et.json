@@ -1,0 +1,54 @@
+{
+  "nav": [
+    { "text": "Kodu", "to": "/" },
+    { "text": "About", "to": "/about" },
+    { "text": "Kontakt", "to": "/contact" }
+  ],
+  "self": {
+    "title": "Ehitage oma kohalolekut veebis Oleg Rõbnikovi veebiarendusega",
+    "text": [
+      "Tere, mina olen Oleg Rõbnikov, professionaalne veebiarendaja, kellel on aastatepikkune kogemus veebisaitide ja veebipoodide loomisel. Olen spetsialiseerunud kohandatud lahenduste pakkumisele, mis vastavad teie ainulaadsetele ärivajadustele. Minu teenused on loodud teie veebis kohaloleku suurendamiseks ja selle muutmiseks. teie jaoks on lihtne oma veebisaiti või veebipoodi hallata. Lubage mul tutvustada teile oma tooteid ja lisasid, mis aitavad teil oma eesmärke saavutada."
+    ]
+  },
+  "prod": [
+    {
+      "name": "blogi",
+      "title": "Isiklik ajaveeb või leht Home-About-Contacts",
+      "slogan": "Esitlege end meie isikliku ajaveebi või lehel Kodu-Teave-Kontaktid!",
+      "price": "Sisaldab 3 tööpäeva. Hind: alates 150 EUR.",
+      "text": [
+        "Oleg Rõbnikovi veebiarendus pakub isiklikku ajaveebi või kodu-teave-kontaktide lehte, mis sobib suurepäraselt üksikisikutele või väikeettevõtetele, kes soovivad esitleda oma isiklikku kaubamärki või äriteavet. Teen teiega koostööd, et luua muudetava sisuga veebisait, mida saab laiendada. sisuhaldussüsteemi teie ajaveebi pidamiseks või muudeks avaldamistegevusteks. Projekt kestab vaid 3 tööpäeva ja algab hinnaga 150 EUR. Olen pühendunud oma klientidele parima kliendikogemuse pakkumisele ja olen uhke selle üle, et pakun parimat sälk lahendused, mis vastavad nende konkreetsetele vajadustele."
+      ]
+    },
+    {
+      "name": "biz",
+      "title": "Ettevõtte leht või ühe lehe rakendus",
+      "slogan": "Tõstke oma ettevõtet meie ettevõtte lehe või ühe lehe rakendusega!",
+      "price": "Sisaldab 5 tööpäeva. Hind: alates 270 EUR.",
+      "text": [
+        "Suurematele ettevõtetele pakun ärilehte või ühe lehe rakendust, mis aitab tõsta teie ettevõtte järgmisele tasemele. Minu põhiprojekt sisaldab rohkem kui kolme marsruuti ja teie sisu dünaamilist esitlust ning seda saab hiljem laiendada progressiivseks veebirakenduseks mis pakub teie klientidele paremat kasutuskogemust. Teen teiega tihedat koostööd tagamaks, et lõpptoode vastaks teie ärivajadustele ja ületaks teie ootused."
+      ]
+    },
+    {
+      "name": "pood",
+      "title": "Veebipood/ e-kaubanduse leht",
+      "slogan": "Suurendage oma müüki meie veebipoe/e-kaubanduse lehe abil!",
+      "price": "Alates 450 EUR.",
+      "text": [
+        "Kui soovite oma tooteid veebis müüa, saan luua veebipoe/e-kaubanduse lehe tootekaartide ja maksesüsteemidega. Oleg Rõbnikovi veebiarendus aitab teil luua teie ettevõtte vajadustele vastava veebipoe."
+      ]
+    }
+  ],
+  "extras": {
+    "title": "Keeled, hostimine, SEO ja kohandatud projektid",
+    "text": [
+      "Pakun mitmesuguseid lisasid, mis aitavad teil oma veebisaiti või veebipoodi täiustada. Nende hulka kuuluvad:",
+      "Saadaval lisakeeled: inglise, vene, saksa, eesti, vietnami, hiina lisatasu eest.",
+      "Teil on vaja oma veebisaidile hostimisteenust ja domeeninime. Võite kasutada enda oma või ma võin need teile lisatasu eest pakkuda.",
+      "Lisafunktsiooniks on ka otsingumootori optimeerimine. Aitan teil optimeerida teie veebisaiti otsingumootorite jaoks, mis aitab teil otsingutulemustes kõrgemat asetust tõsta ja veebisaidi liiklust suurendada. Optimeerin veebisaidi koostamist parima laadimiskiiruse saavutamiseks ja pakun märksõna , kirjeldus ja sisuhaldus tehisintellekti abil lisatasu eest. See funktsioon võib pikendada tarneaega, kuid see on investeeringut väärt Minu eesmärk on aidata teil saavutada oma veebisaidilt või veebipoest parimaid võimalikke tulemusi .",
+      "Lõpuks pakun kohandatud projekte, mis hõlmavad teie olemasoleva projekti laiendamist või muudatuste tegemist graafilise disaini, jõudluse või sisu parandamiseks. Võtan tasu tunni- või päeva- või nädalapõhiselt, olenevalt teie vajadustest. Olen pühendunud läbipaistva hinnakujunduse ja kõrgete kvaliteetset teenust kõigile oma klientidele."
+    ],
+    "price": ["20 EUR/tund", "150 EUR/8-tunnine tööpäev", "700 EUR/5-päevane nädal"]
+  },
+  "action": "Võtke ühendust Oleg Rõbnikovi veebiarendusega juba täna, et saada lisateavet meie teenuste ja selle kohta, kuidas saaksime aidata teil luua veebis kohaloleku, mis esindab teie brändi!"
+}
