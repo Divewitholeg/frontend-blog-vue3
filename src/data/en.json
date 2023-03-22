@@ -50,5 +50,36 @@
     ],
     "price": ["20 EUR/ hour", "150 EUR/ 8 hour working day", "700 EUR/ 5 day week"]
   },
-  "action": "Get in touch with Oleg Rõbnikov Web Development today to learn more about our services and how we can help you create an online presence that represents your brand!"
+  "action": "Get in touch with Oleg Rõbnikov Web Development today to learn more about our services and how we can help you create an online presence that represents your brand!",
+  "contacts": {
+    "title": "Oleg Rõbnikov Web Development",
+    "reg": "Registered in Estonia as a sole trader 16629214 on 2022-12-08",
+    "text": [
+      "If you have any questions about my services, please feel free to contact me. I am happy to answer any questions you may have and provide you with a free quote. I look forward to hearing from you!"
+    ],
+    "email": "rybniko@gmail.com",
+    "phone": "+372 5604 5484",
+    "address": {
+      "title": "Address",
+      "street": "Õismäe tee 65-47",
+      "zip": "13515",
+      "city": "Tallinn",
+      "country": "Estonia"
+    },
+    "lat": 59.437,
+    "lng": 24.753
+  },
+  "about": {
+    "title": "About Oleg Rõbnikov Web Development",
+    "text": [
+      "I am dedicated to providing the best customer experience for my clients, and I take pride in delivering top-notch solutions that meet their specific needs. I work closely with you to ensure that the end product meets your business needs and exceeds your expectations. I am committed to providing transparent pricing and high-quality service to all my clients.",
+      "In 2003, I graduated from Concordia International University Estonia. This was a significant milestone in my education and helped me develop skills that I use to this day. The education I received at Concordia gave me a competitive advantage in the world of web development.",
+      "In 2002, I built my first website. This was an exciting time for me, as I discovered my passion for web development. This experience allowed me to gain practical knowledge and experience in website building, setting the foundation for my future in the industry.",
+      "In 2007, my interest in online education systems, social media, SEO, and Google Ads began to grow. As a result, I became well-versed in the latest trends and technologies, giving me an edge in the field of digital marketing.",
+      "The advent of social media marketing era presented a new opportunity for me. Building pages on Facebook and advertising on Instagram were effective ways to drive traffic to websites. My familiarity with these platforms gave me an advantage in developing successful social media campaigns.",
+      "In 2019, I took online JavaScript courses with Pirple.com. This was a valuable experience as I familiarized myself with React, Vue frontend frameworks, as well as Astro.js, Svelte. I decided to work primarily with Vue and Vite, as they offered the most benefits for my projects.",
+      "In 2020, I started working with PHP and Laravel. This was another new experience that broadened my skillset and allowed me to take on more diverse projects.",
+      "In 2022, I founded Oleg Rõbnikov Web Development, a company dedicated to developing blogs, single page applications, and online shops. My diverse skillset, acquired from years of experience and education, allows me to provide quality solutions to clients. My competitive advantage lies in my ability to adapt to new technologies and stay ahead of industry trends."
+    ]
+  }
 }

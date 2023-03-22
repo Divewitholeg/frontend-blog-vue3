@@ -57,5 +57,5 @@ npm run lint
 
 I am available for freelance work. If you have a project that you would like to get started, please contact me through one of the channels below:
 
-- [Email](mailto: rybniko@gmail.com)
+- rybniko@gmail.com
 - [Facebook](https://www.facebook.com/vuewebdev)

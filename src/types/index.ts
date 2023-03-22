@@ -14,9 +14,31 @@ export interface Product {
   text: string[]
 }
 
-// export interface Action {
-//   action: string
-// }
+export interface Address {
+  title: string
+  street: string
+  zip: string
+  city: string
+  country: string
+}
+
+export interface Contacts {
+  title: string
+  reg: string
+  text: string[]
+  email?: string
+  phone?: string
+  address: Address
+  lat: number
+  lng: number
+}
+
+export interface Social {
+  icon: string
+  name: string
+  url: string
+  tags: string[]
+}
 
 export interface Content {
   nav: Button[]
@@ -24,4 +46,9 @@ export interface Content {
   prod: Product[]
   extras: Product
   action: string
+  contacts: Contacts
+  about: {
+    title: string
+    text: string[]
+  }
 }

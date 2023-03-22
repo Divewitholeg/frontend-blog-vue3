@@ -7,9 +7,11 @@ defineProps<{
   content: Content
 }>()
 const AboutDesktop = defineAsyncComponent(() => import('@/components/AboutDesktop.vue'))
+const ContactsDesktop = defineAsyncComponent(() => import('@/components/ContactsDesktop.vue'))
 const route = computed(() => useRoute().params.link)
 </script>
 <template>
   <div class="">Welcome to {{ route }} page</div>
-  <AboutDesktop v-if="(route = 'about')" :self="content.self" />
+  <AboutDesktop v-if="route === 'about'" :self="content.about" />
+  <ContactsDesktop v-if="route === 'contact'" :contacts="content.contacts" />
 </template>

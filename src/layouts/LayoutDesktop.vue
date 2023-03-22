@@ -15,7 +15,9 @@
       </aside>
     </div>
 
-    <footer class="h-10 w-full fixed bottom-0 z-10">
+    <footer
+      class="bg-gradient-to-r from-blue-100 via-blue-300 to-blue-500 h-10 w-full fixed bottom-0 z-10"
+    >
       <slot name="footer"></slot>
     </footer>
   </div>
