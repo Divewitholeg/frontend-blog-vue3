@@ -1,5 +1,9 @@
 <script setup lang="ts">
 import NavigationLanguageSelect from './NavigationLanguageSelect.vue'
+const emit = defineEmits(['changeLang'])
+const setLang = (lang: string) => {
+  emit('changeLang', lang)
+}
 </script>
 <template>
   <div class="flex items-center justify-between mx-5 my-3">
@@ -10,6 +14,6 @@ import NavigationLanguageSelect from './NavigationLanguageSelect.vue'
       height="50"
     />
 
-    <NavigationLanguageSelect />
+    <NavigationLanguageSelect @change-lang="setLang" />
   </div>
 </template>
