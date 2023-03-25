@@ -50,5 +50,37 @@
     ],
     "price": ["20 EUR/ Stunde", "150 EUR/ 8-Stunden-Arbeitstag", "700 EUR/ 5-Tage-Woche"]
   },
-  "action": "Setzen Sie sich noch heute mit Oleg Rõbnikov Web Development in Verbindung, um mehr über unsere Dienstleistungen zu erfahren und wie wir Ihnen helfen können, eine Online-Präsenz zu erstellen, die Ihre Marke repräsentiert!"
+  "action": "Setzen Sie sich noch heute mit Oleg Rõbnikov Web Development in Verbindung, um mehr über unsere Dienstleistungen zu erfahren und wie wir Ihnen helfen können, eine Online-Präsenz zu erstellen, die Ihre Marke repräsentiert!",
+  "contacts": {
+    "title": "Oleg Rõbnikov Web Development",
+    "reg": "Als Einzelunternehmer in Estland unter der Registernummer 16629214 am 08.12.2022 registriert",
+    "text": [
+      "Wenn Sie Fragen zu meinen Dienstleistungen haben, zögern Sie bitte nicht, mich zu kontaktieren. Ich stehe Ihnen gerne für alle Fragen zur Verfügung und unterbreite Ihnen gerne ein kostenloses Angebot. Ich freue mich darauf, von Ihnen zu hören!"
+    ],
+    "email": "rybniko@gmail.com",
+    "phone": "+372 5604 5484",
+    "address": {
+      "title": "Adresse",
+      "street": "Straße: Õismäe tee 65-47",
+      "zip": "Postleitzahl: 13515",
+      "city": "Stadt: Tallinn",
+      "province": "Provinz: Harjumaa",
+      "country": "Land: Estland"
+    },
+    "lat": 59.437,
+    "lng": 24.753
+  },
+  "about": {
+    "title": "Über Oleg Rõbnikov Web Development",
+    "text": [
+      "Ich widme mich voll und ganz der Bereitstellung der besten Kundenerfahrung für meine Kunden und bin stolz darauf, erstklassige Lösungen zu liefern, die ihren spezifischen Bedürfnissen entsprechen. Ich arbeite eng mit Ihnen zusammen, um sicherzustellen, dass das Endprodukt Ihren Geschäftsanforderungen entspricht und Ihre Erwartungen übertrifft. Ich bin bestrebt, transparente Preisgestaltung und hochwertigen Service für alle meine Kunden zu bieten.",
+      "Im Jahr 2003 absolvierte ich die Concordia International University Estonia. Dies war ein bedeutender Meilenstein in meiner Ausbildung und half mir, Fähigkeiten zu entwickeln, die ich bis heute nutze. Die Ausbildung, die ich an der Concordia erhielt, gab mir einen Wettbewerbsvorteil in der Welt der Webentwicklung.",
+      "Im Jahr 2002 baute ich meine erste Website. Dies war eine aufregende Zeit für mich, da ich meine Leidenschaft für die Webentwicklung entdeckte. Diese Erfahrung ermöglichte es mir, praktisches Wissen und Erfahrung im Website-Bau zu sammeln und legte den Grundstein für meine Zukunft in der Branche.",
+      "Im Jahr 2007 begann mein Interesse an Online-Bildungssystemen, sozialen Medien, SEO und Google Ads zu wachsen. Dadurch wurde ich mit den neuesten Trends und Technologien vertraut und erhielt dadurch einen Vorteil im Bereich des digitalen Marketings.",
+      "Die Einführung des Social-Media-Marketing-Ära bot mir eine neue Gelegenheit. Der Aufbau von Seiten auf Facebook und Werbung auf Instagram waren effektive Möglichkeiten, um den Traffic auf Websites zu erhöhen. Meine Vertrautheit mit diesen Plattformen gab mir einen Vorteil bei der Entwicklung erfolgreicher Social-Media-Kampagnen.",
+      "Im Jahr 2019 absolvierte ich Online-JavaScript-Kurse bei Pirple.com. Dies war eine wertvolle Erfahrung, da ich mich mit React, Vue Frontend-Frameworks sowie Astro.js und Svelte vertraut gemacht habe. Ich habe mich entschieden, hauptsächlich mit Vue und Vite zu arbeiten, da sie für meine Projekte die meisten Vorteile boten.",
+      "Im Jahr 2020 begann ich mit PHP und Laravel zu arbeiten. Dies war eine weitere neue Erfahrung, die meinen Skillset erweiterte und mir ermöglichte, vielfältigere Projekte anzunehmen.",
+      "Im Jahr 2022 gründete ich Oleg Rõbnikov Web Development, ein Unternehmen, das sich auf die Entwicklung von Blogs, Single-Page-Anwendungen und Online-Shops spezialisiert hat. Mein vielfältiger Skillset, erworben aus jahrelanger Erfahrung und Bildung, ermöglicht es mir, qualitativ hochwertige Lösungen für Kunden zu bieten. Mein Wettbewerbsvorteil liegt in meiner Fähigkeit, sich an neue Technologien anzupassen und den Branchentrends voraus zu sein."
+    ]
+  }
 }

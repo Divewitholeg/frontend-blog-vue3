@@ -61,10 +61,11 @@
     "phone": "+372 5604 5484",
     "address": {
       "title": "Address",
-      "street": "Õismäe tee 65-47",
-      "zip": "13515",
-      "city": "Tallinn",
-      "country": "Estonia"
+      "street": "Street: Õismäe tee 65-47",
+      "zip": "Postal code: 13515",
+      "city": "City: Tallinn",
+      "province": "Province: Harjumaa",
+      "country": "Country: Estonia"
     },
     "lat": 59.437,
     "lng": 24.753

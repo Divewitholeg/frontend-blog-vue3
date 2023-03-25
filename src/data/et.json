@@ -50,5 +50,37 @@
     ],
     "price": ["20 EUR/tund", "150 EUR/8-tunnine tööpäev", "700 EUR/5-päevane nädal"]
   },
-  "action": "Võtke ühendust Oleg Rõbnikovi veebiarendusega juba täna, et saada lisateavet meie teenuste ja selle kohta, kuidas saaksime aidata teil luua veebis kohaloleku, mis esindab teie brändi!"
+  "action": "Võtke ühendust Oleg Rõbnikovi veebiarendusega juba täna, et saada lisateavet meie teenuste ja selle kohta, kuidas saaksime aidata teil luua veebis kohaloleku, mis esindab teie brändi!",
+  "contacts": {
+    "title": "Oleg Rõbnikovi Web Development",
+    "reg": "Registreeritud Eesti Füüsilisest Isikust Ettevõtjana (16629214) 2022-12-08",
+    "text": [
+      "Kui teil on küsimusi minu teenuste kohta, võtke julgelt ühendust. Olen valmis vastama kõikidele teie küsimustele ja pakkuma tasuta hinnapakkumist. Ootan teie kirju!"
+    ],
+    "email": "rybniko@gmail.com",
+    "phone": "+372 5604 5484",
+    "address": {
+      "title": "Aadress",
+      "street": "Tänav: Õismäe tee 65-47",
+      "zip": "Postiindeks: 13515",
+      "city": "Linn: Tallinn",
+      "province": "Maakond: Harjumaa",
+      "country": "Riik: Eesti"
+    },
+    "lat": 59.437,
+    "lng": 24.753
+  },
+  "about": {
+    "title": "Oleg Rõbnikovi Web Development",
+    "text": [
+      "Olen pühendunud oma klientidele parima kliendikogemuse pakkumisele ning uhke, et suudan pakkuda tipptasemel lahendusi, mis vastavad nende konkreetsetele vajadustele. Töötan teiega tihedalt koos, et tagada, et lõpp-toode vastab teie äri vajadustele ning ületab teie ootusi. Olen pühendunud läbipaistva hinnakujunduse ning kõrgekvaliteedilise teenuse pakkumisele kõigile oma klientidele.",
+      "Aastal 2003 lõpetasin Concordia International University Estonia. See oli minu haridusel oluline verstapost, mis aitas mul arendada oskusi, mida kasutan tänaseni. Concordias saadud haridus andis mulle konkurentsieelise veebiarenduse valdkonnas.",
+      "Aastal 2002 ehitasin oma esimese veebilehe. See oli minu jaoks põnev aeg, kuna avastasin oma kirg veebiarenduse vastu. See kogemus võimaldas mul omandada praktilisi teadmisi ja kogemusi veebilehtede loomises, luues aluse minu tulevasele karjäärile selles valdkonnas.",
+      "Aastal 2007 hakkasid mu huvi veebipõhiste haridussüsteemide, sotsiaalmeedia, SEO ja Google'i reklaamide vastu kasvama. Selle tulemusena sain hästi kursis viimaste trendide ja tehnoloogiatega, mis andsid mulle eelise digitaalse turunduse valdkonnas.",
+      "Sotsiaalmeedia turunduse ajastu tulek andis mulle uue võimaluse. Facebooki lehtede loomine ja Instagramis reklaamide tegemine olid efektiivsed viisid veebisaidi külastatavuse suurendamiseks. Minu tuttavus nende platvormidega andis mulle eelise edukate sotsiaalmeedia kampaaniate arendamisel.",
+      "Aastal 2019 võtsin Pirple.com kaudu online JavaScript'i kursusi. See oli minu jaoks väärtuslik kogemus, sest tutvusin React, Vue esirakenduse raamistike ja Astro.js, Svelte-ga. Otsustasin töötada peamiselt Vue ja Vite'iga, kuna need pakkusid minu projektidele kõige rohkem eeliseid.",
+      "Aastal 2020 hakkasin töötama PHP ja Laraveliga. See oli veel üks uus kogemus, mis laiendas mu oskuste hulka ja võimaldas mul võtta vastu mitmekesisemaid projekte.",
+      "Aastal 2022 asutasin Oleg Rõbnikov Veebiarenduse ettevõtte, mis on pühendunud blogide, üheleheküljeliste rakenduste ja online-poodide arendamisele. Minu mitmekülgne oskusteave, mida olen omandanud aastate jooksul kogemuste ja hariduse kaudu, võimaldab mul pakkuda klientidele kvaliteetseid lahendusi. Minu konkurentsieelis seisneb minu võimes kohaneda uute tehnoloogiatega ja püsida tööstuse suundumustega sammu pidav."
+    ]
+  }
 }
