@@ -1,14 +1,13 @@
 <script setup lang="ts">
 import type { Product } from '@/types'
+
+import ProductCardMobile from './ProductCardMobile.vue'
 defineProps<{
-  prod: Product[]
+  products: Product[]
 }>()
 </script>
 <template>
-  <article v-for="pr in prod" :key="pr.name" id="pr.name">
-    <h2>{{ pr.title }}</h2>
-    <blockquote>{{ pr.slogan }}</blockquote>
-    <p>{{ pr.price }}</p>
-    <p v-for="(p, index) in pr.text" :key="index">{{ p }}</p>
+  <article v-for="prod in products" :key="prod.name" id="prod.name" class="my-3 py-3">
+    <ProductCardMobile :prod="prod" />
   </article>
 </template>

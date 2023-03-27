@@ -12,7 +12,7 @@ const ActionMobile = defineAsyncComponent(() => import('./ActionMobile.vue'))
 <template>
   <section class="mt-20 p-2 pb-10">
     <AboutMobile :self="content.self" />
-    <ProductMobile :prod="content.prod" />
+    <ProductMobile :products="content.prod" />
     <ExtrasMobile :extras="content.extras" />
     <ActionMobile :action="content.action" />
   </section>
