@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { Product } from '@/types'
-import { defineProps, ref } from 'vue'
+import { ref } from 'vue'
 import ProductCardMobileContracted from './ProductCardMobileContracted.vue'
 import ProductCardMobileExpanded from './ProductCardMobileExpanded.vue'
 defineProps<{

@@ -10,7 +10,7 @@ export interface Product {
   alt?: string | undefined
   title: string
   slogan?: string | undefined
-  price: string | string[]
+  price?: string | string[]
   text: string[]
 }
 

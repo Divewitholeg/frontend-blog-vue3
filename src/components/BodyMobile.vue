@@ -1,19 +1,38 @@
 <script setup lang="ts">
 import type { Content } from '@/types'
-import { defineAsyncComponent } from 'vue'
+import { defineAsyncComponent, shallowRef } from 'vue'
+import CardMobileLayout from '@/layouts/CardMobileLayout.vue'
 defineProps<{
   content: Content
 }>()
-const AboutMobile = defineAsyncComponent(() => import('./AboutMobile.vue'))
+const AboutMobileContracted = defineAsyncComponent(() => import('./AboutMobileContracted.vue'))
+const AboutMobileExpanded = defineAsyncComponent(() => import('./AboutMobileExpanded.vue'))
 const ProductMobile = defineAsyncComponent(() => import('./ProductMobile.vue'))
-const ExtrasMobile = defineAsyncComponent(() => import('./ExtrasMobile.vue'))
+const ExtrasMobileExpanded = defineAsyncComponent(() => import('./ExtrasMobileExpanded.vue'))
+const ExtrasMobileContracted = defineAsyncComponent(() => import('./ExtrasMobileContracted.vue'))
 const ActionMobile = defineAsyncComponent(() => import('./ActionMobile.vue'))
+const aboutActive = shallowRef(false)
+const extrasActive = shallowRef(false)
 </script>
 <template>
   <section class="mt-20 p-2 pb-10">
-    <AboutMobile :self="content.self" />
+    <CardMobileLayout>
+      <AboutMobileContracted
+        @click="aboutActive = !aboutActive"
+        v-if="!aboutActive"
+        :self="content.self"
+      />
+      <AboutMobileExpanded @click="aboutActive = !aboutActive" v-else :self="content.self" />
+    </CardMobileLayout>
     <ProductMobile :products="content.prod" />
-    <ExtrasMobile :extras="content.extras" />
+    <CardMobileLayout>
+      <ExtrasMobileContracted
+        @click="extrasActive = !aboutActive"
+        v-if="!extrasActive"
+        :extras="content.extras"
+      />
+      <ExtrasMobileExpanded @click="extrasActive = !extrasActive" v-else :extras="content.extras" />
+    </CardMobileLayout>
     <ActionMobile :action="content.action" />
   </section>
 </template>
