@@ -1,11 +1,11 @@
 {
   "nav": [
     { "text": "Kodu", "to": "/" },
-    { "text": "About", "to": "/about" },
+    { "text": "Firmast", "to": "/about" },
     { "text": "Kontakt", "to": "/contact" }
   ],
   "self": {
-    "title": "Ehitage oma kohalolekut veebis Oleg Rõbnikovi veebiarendusega",
+    "title": "Ehitage oma kohalolekut veebis Oleg Rõbnikov Web Development'iga",
     "text": [
       "Tere, mina olen Oleg Rõbnikov, professionaalne veebiarendaja, kellel on aastatepikkune kogemus veebisaitide ja veebipoodide loomisel. Olen spetsialiseerunud kohandatud lahenduste pakkumisele, mis vastavad teie ainulaadsetele ärivajadustele. Minu teenused on loodud teie veebis kohaloleku suurendamiseks ja selle muutmiseks. teie jaoks on lihtne oma veebisaiti või veebipoodi hallata. Lubage mul tutvustada teile oma tooteid ja lisasid, mis aitavad teil oma eesmärke saavutada."
     ]
@@ -13,18 +13,18 @@
   "prod": [
     {
       "name": "blogi",
-      "title": "Isiklik ajaveeb või leht Home-About-Contacts",
-      "slogan": "Esitlege end meie isikliku ajaveebi või lehel Kodu-Teave-Kontaktid!",
-      "price": "Sisaldab 3 tööpäeva. Hind: alates 150 EUR.",
+      "title": "Isiklik blogi või baas veebileht",
+      "slogan": "Esitlege end isikliku blogi või veebilehel!",
+      "price": "alates 150 EUR",
       "text": [
-        "Oleg Rõbnikovi veebiarendus pakub isiklikku ajaveebi või kodu-teave-kontaktide lehte, mis sobib suurepäraselt üksikisikutele või väikeettevõtetele, kes soovivad esitleda oma isiklikku kaubamärki või äriteavet. Teen teiega koostööd, et luua muudetava sisuga veebisait, mida saab laiendada. sisuhaldussüsteemi teie ajaveebi pidamiseks või muudeks avaldamistegevusteks. Projekt kestab vaid 3 tööpäeva ja algab hinnaga 150 EUR. Olen pühendunud oma klientidele parima kliendikogemuse pakkumisele ja olen uhke selle üle, et pakun parimat sälk lahendused, mis vastavad nende konkreetsetele vajadustele."
+        "Oleg Rõbnikov Web Development pakub isiklikku blogi või kodu-teave-kontaktide lehte, mis sobib suurepäraselt üksikisikutele või väikeettevõtetele, kes soovivad esitleda oma isiklikku kaubamärki või äriteavet. Teen teiega koostööd, et luua muudetava sisuga veebisait, mida saab laiendada. sisuhaldussüsteemi teie ajaveebi pidamiseks või muudeks avaldamistegevusteks. Projekt kestab vaid 3 tööpäeva ja algab hinnaga 150 EUR. Olen pühendunud oma klientidele parima kliendikogemuse pakkumisele ja olen uhke selle üle, et pakun parimat sälk lahendused, mis vastavad nende konkreetsetele vajadustele."
       ]
     },
     {
       "name": "biz",
-      "title": "Ettevõtte leht või ühe lehe rakendus",
+      "title": "Ettevõtte veebileht või ühe lehe rakendus",
       "slogan": "Tõstke oma ettevõtet meie ettevõtte lehe või ühe lehe rakendusega!",
-      "price": "Sisaldab 5 tööpäeva. Hind: alates 270 EUR.",
+      "price": "alates 270 EUR",
       "text": [
         "Suurematele ettevõtetele pakun ärilehte või ühe lehe rakendust, mis aitab tõsta teie ettevõtte järgmisele tasemele. Minu põhiprojekt sisaldab rohkem kui kolme marsruuti ja teie sisu dünaamilist esitlust ning seda saab hiljem laiendada progressiivseks veebirakenduseks mis pakub teie klientidele paremat kasutuskogemust. Teen teiega tihedat koostööd tagamaks, et lõpptoode vastaks teie ärivajadustele ja ületaks teie ootused."
       ]
@@ -32,8 +32,8 @@
     {
       "name": "pood",
       "title": "Veebipood/ e-kaubanduse leht",
-      "slogan": "Suurendage oma müüki meie veebipoe/e-kaubanduse lehe abil!",
-      "price": "Alates 450 EUR.",
+      "slogan": "Suurendage oma müüki meie veebipoe abil!",
+      "price": "alates 450 EUR.",
       "text": [
         "Kui soovite oma tooteid veebis müüa, saan luua veebipoe/e-kaubanduse lehe tootekaartide ja maksesüsteemidega. Oleg Rõbnikovi veebiarendus aitab teil luua teie ettevõtte vajadustele vastava veebipoe."
       ]

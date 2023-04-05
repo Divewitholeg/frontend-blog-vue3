@@ -11,7 +11,6 @@ const ContactsDesktop = defineAsyncComponent(() => import('@/components/Contacts
 const route = computed(() => useRoute().params.link)
 </script>
 <template>
-  <div class="">Welcome to {{ route }} page</div>
   <AboutDesktop v-if="route === 'about'" :self="content.about" />
   <ContactsDesktop v-if="route === 'contact'" :contacts="content.contacts" />
 </template>

@@ -10,6 +10,6 @@ defineProps<{
     <template #caption>
       {{ prod.slogan }}
     </template>
-    <template #text>{{ prod.price.slice(-13) }}</template>
+    <template #text>{{ prod.price }}</template>
   </ProductCardMobileLayoutVue>
 </template>
