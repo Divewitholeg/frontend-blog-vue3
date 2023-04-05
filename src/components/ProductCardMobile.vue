@@ -12,9 +12,9 @@ const active = ref(true)
   <article class="my-3">
     <Transition
       mode="out-in"
-      enter-from-class="duration-100 opacity-0 translate-y-5"
-      enter-active-class="duration-300 opacity-30"
-      enter-to-class="duration-200 opacity-100 rotate-180"
+      enter-from-class="duration-100 opacity-0 translate-y-5 delay-500"
+      enter-active-class="duration-300 opacity-30 delay-600"
+      enter-to-class="duration-200 opacity-100 rotate-180 delay-600"
       leave-from-class="duration-100 opacity-100"
       leave-active-class="duration-200 opacity-50 "
       leave-to-class="duration-200 opacity-0 translate-y-5"

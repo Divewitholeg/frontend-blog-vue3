@@ -8,7 +8,6 @@
       leave-from-class="duration-100 opacity-100"
       leave-active-class="duration-200 opacity-50 "
       leave-to-class="duration-200 opacity-0 translate-y-5 top-0"
-      appear
     >
       <slot />
     </Transition>

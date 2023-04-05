@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gradient-to-r from-blue-100 via-blue-300 to-blue-500 h-screen">
+  <div class="bg-gradient-to-r from-rose-100 to-teal-100 h-screen">
     <header class="h-15 w-full fixed top-0 z-10 shadow-lg">
       <slot name="header"></slot>
     </header>
@@ -15,9 +15,7 @@
       </aside>
     </div>
 
-    <footer
-      class="bg-gradient-to-r from-blue-100 via-blue-300 to-blue-500 h-10 w-full fixed bottom-0 z-10"
-    >
+    <footer class="bg-gradient-to-r from-rose-100 to-teal-100 h-10 w-full fixed bottom-0 z-10">
       <slot name="footer"></slot>
     </footer>
   </div>
