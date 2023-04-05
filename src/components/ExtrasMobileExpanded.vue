@@ -1,8 +1,10 @@
-<script setup lang="ts">
-import type { Product } from '@/types'
-defineProps<{
-  extras: Product
-}>()
+<script setup>
+defineProps({
+  extras: {
+    type: Object,
+    required: true
+  }
+})
 </script>
 <template>
   <article>

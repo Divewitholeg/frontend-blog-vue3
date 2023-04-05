@@ -1,14 +1,14 @@
-<script setup lang="ts">
+<script setup>
 import { RouterLink } from 'vue-router'
-import { useContentStore } from '@/stores/content'
+import { useContentStore } from '@/stores/content.js'
 import { defineAsyncComponent } from 'vue'
 
 const content = useContentStore()
-const NavigationLanguageSelect = defineAsyncComponent(
-  () => import('@/components/NavigationLanguageSelect.vue')
+const NavigationLanguageSelect = defineAsyncComponent(() =>
+  import('@/components/NavigationLanguageSelect.vue')
 )
 const emit = defineEmits(['changeLang'])
-const setLang = (lang: string) => {
+const setLang = (lang) => {
   emit('changeLang', lang)
 }
 </script>

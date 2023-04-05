@@ -1,0 +1,1 @@
+import{d as t,o as a,c as n,a as o,t as c}from"./index-e8217cd6.js";const i=t({__name:"ActionMobile",props:{action:null},setup(e){return(l,r)=>(a(),n("article",null,[o("p",null,c(e.action),1)]))}});export{i as default};

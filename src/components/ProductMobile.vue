@@ -1,10 +1,11 @@
-<script setup lang="ts">
-import type { Product } from '@/types'
-
+<script setup>
 import ProductCardMobile from './ProductCardMobile.vue'
-defineProps<{
-  products: Product[]
-}>()
+defineProps({
+  products: {
+    type: Array,
+    required: true
+  }
+})
 </script>
 <template>
   <article v-for="prod in products" :key="prod.name" id="prod.name" class="my-3 py-3">

@@ -1,8 +1,10 @@
-<script setup lang="ts">
-import type { Product } from '@/types'
-defineProps<{
-  prod: Product[]
-}>()
+<script setup>
+defineProps({
+  prod: {
+    type: Object,
+    required: true
+  }
+})
 </script>
 <template>
   <article v-for="pr in prod" :key="pr.name" id="pr.name">

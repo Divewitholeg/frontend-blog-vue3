@@ -1,11 +1,13 @@
-<script setup lang="ts">
-import type { Content } from '@/types'
+<script setup>
 import ProductDesktop from '@/components/ProductDesktop.vue'
 import ExtrasDesktop from '@/components/ExtrasDesktop.vue'
 import ActionDesktop from '@/components/ActionDesktop.vue'
-defineProps<{
-  content: Content
-}>()
+defineProps({
+  content: {
+    type: Object,
+    required: true
+  }
+})
 </script>
 <template>
   <h1>

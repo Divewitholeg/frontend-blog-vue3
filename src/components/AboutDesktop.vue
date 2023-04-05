@@ -1,8 +1,5 @@
-<script setup lang="ts">
-import type { Product } from '@/types'
-defineProps<{
-  self: Product
-}>()
+<script setup>
+defineProps(['title', 'text'])
 </script>
 <template>
   <article>

@@ -1,10 +1,12 @@
-<script setup lang="ts">
-import type { Content } from '@/types'
+<script setup>
 import { defineAsyncComponent, shallowRef } from 'vue'
 import CardMobileLayout from '@/layouts/CardMobileLayout.vue'
-defineProps<{
-  content: Content
-}>()
+defineProps({
+  content: {
+    type: Object,
+    required: true
+  }
+})
 const AboutMobileContracted = defineAsyncComponent(() => import('./AboutMobileContracted.vue'))
 const AboutMobileExpanded = defineAsyncComponent(() => import('./AboutMobileExpanded.vue'))
 const ProductMobile = defineAsyncComponent(() => import('./ProductMobile.vue'))

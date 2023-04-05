@@ -1,5 +1,5 @@
-<script setup lang="ts">
-import langSelection from '@/data/lang.json'
+<script setup>
+import langSelection from '../data/lang.json'
 
 defineEmits(['changeLang'])
 const langs = Object.assign(langSelection)

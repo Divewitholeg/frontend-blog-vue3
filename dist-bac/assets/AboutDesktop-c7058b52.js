@@ -1,0 +1,1 @@
+import{d as r,o as e,c as t,a as o,t as s,F as c,e as u}from"./index-e8217cd6.js";const f=r({__name:"AboutDesktop",props:{self:null},setup(a){return(p,i)=>(e(),t("article",null,[o("h1",null,s(a.self.title),1),(e(!0),t(c,null,u(a.self.text,(l,n)=>(e(),t("p",{key:n,class:"my-3 p-2"},s(l),1))),128))]))}});export{f as default};

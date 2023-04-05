@@ -1,11 +1,13 @@
-<script setup lang="ts">
-import type { Content } from '@/types'
+<script setup>
 import { computed } from 'vue'
 import { useRoute } from 'vue-router'
 import { defineAsyncComponent } from 'vue'
-defineProps<{
-  content: Content
-}>()
+defineProps({
+  content: {
+    type: Object,
+    required: true
+  }
+})
 const AboutDesktop = defineAsyncComponent(() => import('@/components/AboutDesktop.vue'))
 const ContactsDesktop = defineAsyncComponent(() => import('@/components/ContactsDesktop.vue'))
 const route = computed(() => useRoute().params.link)

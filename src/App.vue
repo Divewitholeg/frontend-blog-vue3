@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
 import { RouterView } from 'vue-router'
 import { useWindowSize } from '@vueuse/core'
 import { ref, defineAsyncComponent } from 'vue'
@@ -16,7 +16,7 @@ const BodyMobile = defineAsyncComponent(() => import('@/components/BodyMobile.vu
 const FooterMobile = defineAsyncComponent(() => import('@/components/FooterMobile.vue'))
 const FooterDesktop = defineAsyncComponent(() => import('@/components/FooterDesktop.vue'))
 const { width } = useWindowSize()
-const setLang = (newLang: string) => {
+const setLang = (newLang) => {
   lang.value = newLang
   localStorage.setItem('lang', lang.value)
   contentStore.setContent(lang.value)

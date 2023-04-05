@@ -1,9 +1,14 @@
-<script setup lang="ts">
-import type { Social } from '@/types'
-defineProps<{
-  lang: string
-  social: Social[]
-}>()
+<script setup>
+defineProps({
+  social: {
+    type: Array,
+    required: true
+  },
+  lang: {
+    type: String,
+    required: true
+  }
+})
 </script>
 <template>
   <div class="flex justify-center my-2">

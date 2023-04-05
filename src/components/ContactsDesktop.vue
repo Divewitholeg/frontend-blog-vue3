@@ -1,8 +1,10 @@
-<script setup lang="ts">
-import type { Contacts } from '@/types'
-defineProps<{
-  contacts: Contacts
-}>()
+<script setup>
+defineProps({
+  contacts: {
+    type: Object,
+    required: true
+  }
+})
 </script>
 
 <template>

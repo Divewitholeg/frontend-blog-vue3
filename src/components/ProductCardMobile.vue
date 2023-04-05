@@ -1,11 +1,13 @@
-<script setup lang="ts">
-import type { Product } from '@/types'
+<script setup>
 import { ref } from 'vue'
 import ProductCardMobileContracted from './ProductCardMobileContracted.vue'
 import ProductCardMobileExpanded from './ProductCardMobileExpanded.vue'
-defineProps<{
-  prod: Product
-}>()
+defineProps({
+  prod: {
+    type: Object,
+    required: true
+  }
+})
 const active = ref(true)
 </script>
 <template>

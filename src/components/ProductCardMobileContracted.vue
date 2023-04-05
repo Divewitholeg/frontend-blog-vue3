@@ -1,9 +1,16 @@
-<script setup lang="ts">
+<script setup>
 import ProductCardMobileLayoutVue from '@/layouts/ProductCardMobileLayout.vue'
-import type { Product } from '@/types'
-defineProps<{
-  prod: Product
-}>()
+
+defineProps({
+  active: {
+    type: Boolean,
+    required: true
+  },
+  prod: {
+    type: Object,
+    required: true
+  }
+})
 </script>
 <template>
   <ProductCardMobileLayoutVue :active="false">
