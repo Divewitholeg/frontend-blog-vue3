@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import NavigationLanguageSelect from './NavigationLanguageSelect.vue'
-const emit = defineEmits(['changeLang'])
+const emit = defineEmits<{ (e: 'changeLang', lang: string): void }>()
 const setLang = (lang: string) => {
   emit('changeLang', lang)
 }

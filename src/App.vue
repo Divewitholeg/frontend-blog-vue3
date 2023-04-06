@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
 import { useWindowSize } from '@vueuse/core'
-import { ref, defineAsyncComponent } from 'vue'
+import { ref, defineAsyncComponent, onUpdated } from 'vue'
 import { useContentStore } from './stores/content'
 import socialMedia from './data/social.json'
 
@@ -21,6 +21,10 @@ const setLang = (newLang: string) => {
   localStorage.setItem('lang', lang.value)
   contentStore.setContent(lang.value)
 }
+onUpdated(() => {
+  contentStore.setContent(lang.value)
+  contentStore.getContent
+})
 </script>
 
 <template>

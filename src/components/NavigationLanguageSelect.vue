@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import langSelection from '@/data/lang.json'
 
-defineEmits(['changeLang'])
+const emit = defineEmits<{ (e: 'changeLang', lang: string): void }>()
 const langs = Object.assign(langSelection)
 </script>
 <template>
@@ -11,7 +11,8 @@ const langs = Object.assign(langSelection)
         class="block px-4 py-2 hover:bg-gray-100"
         v-for="language in langs"
         :key="language.text"
-        @click="$emit('changeLang', language.value)"
+        @click="emit('changeLang', language.value)"
+        @select="emit('changeLang', language.value)"
       >
         {{ language.flag }} {{ language.text }}
       </option>

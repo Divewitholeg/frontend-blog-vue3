@@ -7,7 +7,7 @@ const content = useContentStore()
 const NavigationLanguageSelect = defineAsyncComponent(
   () => import('@/components/NavigationLanguageSelect.vue')
 )
-const emit = defineEmits(['changeLang'])
+const emit = defineEmits<{ (e: 'changeLang', lang: string): void }>()
 const setLang = (lang: string) => {
   emit('changeLang', lang)
 }
