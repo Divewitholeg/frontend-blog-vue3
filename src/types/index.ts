@@ -1,3 +1,9 @@
+export interface Language {
+  value: string
+  text: string
+  flag: string
+}
+
 export interface Button {
   img?: string | undefined
   text: string
