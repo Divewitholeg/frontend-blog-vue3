@@ -33,7 +33,7 @@ onUpdated(() => {
       <NavigationMobile @changeLang="setLang" />
     </template>
     <template #default>
-      <BodyMobile :content="contentStore.getContent" />
+      <BodyMobile :width="width" :content="contentStore.getContent" />
     </template>
     <template #footer>
       <FooterMobile :lang="lang" :social="social" />
