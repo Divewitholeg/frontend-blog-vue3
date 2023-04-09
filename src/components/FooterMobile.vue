@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import type { Social } from '@/types'
+import SvgLoader from './SvgLoader.vue'
 defineProps<{
   lang: string
   social: Social[]
@@ -15,7 +16,7 @@ defineProps<{
         class="mx-3"
       >
         <a :href="link.url">
-          <img :src="`/social/${link.icon}`" :alt="link.name" width="30" height="30"
+          <SvgLoader :name="link.icon" :alt="link.name" fill="#4a044e" width="25" height="25"
         /></a>
       </div>
     </div>

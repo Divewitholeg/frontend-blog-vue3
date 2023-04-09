@@ -1,5 +1,5 @@
 <template>
-  <div class="relative h-screen">
+  <div class="relative h-screen text-fuchsia-950">
     <header class="fixed top-0 h-17 w-full bg-mobile shadow-lg z-10">
       <slot name="header"></slot>
     </header>

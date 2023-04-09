@@ -1,120 +1,120 @@
 [
   {
-    "icon": "facebook.svg",
+    "icon": "facebook",
     "name": "Facebook",
     "url": "https://www.facebook.com/vuewebdev",
     "tags": ["en", "de", "vi", "et", "desktop"]
   },
   {
-    "icon": "twitter.svg",
+    "icon": "twitter",
     "name": "Twitter",
     "url": "https://twitter.com/DiveWithOleg",
     "tags": ["en", "de", "vi", "et", "desktop"]
   },
   {
-    "icon": "github.svg",
+    "icon": "github",
     "name": "GitHub",
     "url": "https://github.com/Divewitholeg",
     "tags": ["all", "desktop"]
   },
   {
-    "icon": "linkedin.svg",
+    "icon": "linkedin",
     "name": "LinkedIn",
     "url": "https://www.linkedin.com/in/olegrybnikov/",
     "tags": ["all", "desktop"]
   },
   {
-    "icon": "quora.svg",
+    "icon": "quora",
     "name": "Quora",
     "url": "https://www.quora.com/profile/Oleg-Rybnikov-1",
     "tags": ["en", "de", "vi", "et", "desktop"]
   },
   {
-    "icon": "stack-overflow.svg",
+    "icon": "stack-overflow",
     "name": "Stack Overflow",
     "url": "https://stackoverflow.com/users/20284583/oleg-rybnikov",
     "tags": ["all", "desktop"]
   },
   {
-    "icon": "youtube.svg",
+    "icon": "youtube",
     "name": "YouTube",
     "url": "https://www.youtube.com/channel/UC_q7BMiJIq7akOk9gTzr-pA",
     "tags": ["en", "de", "vi", "et", "desktop"]
   },
   {
-    "icon": "medium.svg",
+    "icon": "medium",
     "name": "Medium",
     "url": "https://medium.com/@rybniko",
     "tags": ["en", "de", "vi", "et", "desktop"]
   },
   {
-    "icon": "dev.svg",
+    "icon": "dev",
     "name": "Dev.to",
     "url": "https://dev.to/divewitholeg",
     "tags": ["en", "de", "vi", "et", "desktop"]
   },
   {
-    "icon": "codepen.svg",
+    "icon": "codepen",
     "name": "CodePen",
     "url": "https://codepen.io/Oleg-Rybnikov",
     "tags": ["all", "desktop"]
   },
   {
-    "icon": "mastodon.svg",
+    "icon": "mastodon",
     "name": "Mastodon",
     "url": "https://mastodon.social/@vuewebdev",
     "tags": ["all", "desktop"]
   },
   {
-    "icon": "telegram.svg",
+    "icon": "telegram",
     "name": "Telegram",
     "url": "https://t.me/contactOleg",
     "tags": ["ru", "mobile"]
   },
   {
-    "icon": "whatsapp.svg",
+    "icon": "whatsapp",
     "name": "WhatsApp",
     "url": "https://wa.me/37256045484",
     "tags": ["en", "de", "vi", "et", "mobile"]
   },
   {
-    "icon": "envelope-solid.svg",
+    "icon": "envelope-solid",
     "name": "Email",
     "url": "mailto:rybniko@gmail.com",
     "tags": ["all", "mobile", "desktop"]
   },
   {
-    "icon": "phone-volume-solid.svg",
+    "icon": "phone-volume-solid",
     "name": "Phone",
     "url": "tel:+37256045484",
     "tags": ["all", "mobile"]
   },
   {
-    "icon": "skype.svg",
+    "icon": "skype",
     "name": "Skype",
     "url": "skype:live:oleg.rybnikov?chat",
     "tags": ["all", "desktop"]
   },
   {
-    "icon": "viber.svg",
+    "icon": "viber",
     "name": "Viber",
     "url": "viber://chat?number=%2B37256045484",
     "tags": ["all", "mobile"]
   },
   {
-    "icon": "weixin.svg",
+    "icon": "weixin",
     "name": "WeChat",
     "url": "weixin://dl/chat?weixinid=wxid_njca4mdlb63v22",
     "tags": ["zh", "mobile"]
   },
   {
-    "icon": "facebook-messenger.svg",
+    "icon": "facebook-messenger",
     "name": "Messenger",
     "url": "https://m.me/oleg.rybnikov",
     "tags": ["en", "de", "vi", "et", "mobile"]
   },
   {
-    "icon": "vk.svg",
+    "icon": "vk",
     "name": "VKontakte",
     "url": "https://vk.com/divewitholeg",
     "tags": ["ru", "desktop", "mobile"]

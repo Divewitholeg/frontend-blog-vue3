@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gradient-to-r from-rose-100 to-teal-100 h-screen">
+  <div class="bg-gradient-to-r from-rose-100 to-teal-100 h-screen text-orange-950">
     <header class="h-15 w-full fixed top-0 z-10 shadow-lg">
       <slot name="header"></slot>
     </header>
