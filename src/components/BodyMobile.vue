@@ -15,6 +15,7 @@ const ExtrasMobileContracted = defineAsyncComponent(() => import('./ExtrasMobile
 const ActionMobile = defineAsyncComponent(() => import('./ActionMobile.vue'))
 const CardMobileLayout = defineAsyncComponent(() => import('@/layouts/CardMobileLayout.vue'))
 const ExtrasMobileSlow = defineAsyncComponent(() => import('./ExtrasMobileSlow.vue'))
+const GoogleMapMobile = defineAsyncComponent(() => import('./GoogleMapMobile.vue'))
 const aboutActive = shallowRef(false)
 const extrasActive = shallowRef(false)
 </script>
@@ -38,6 +39,7 @@ const extrasActive = shallowRef(false)
       <ExtrasMobileExpanded @click="extrasActive = !extrasActive" v-else :extras="content.extras" />
     </CardMobileLayout>
     <ActionMobile :action="content.action" />
+    <GoogleMapMobile />
   </section>
   <section v-else class="mt-20 p-2 pb-10">
     <AboutMobileSlow :self="content.self" />
@@ -49,5 +51,7 @@ const extrasActive = shallowRef(false)
     <ExtrasMobileSlow :extras="content.extras" />
 
     <ActionMobile :action="content.action" />
+
+    <GoogleMapMobile />
   </section>
 </template>
