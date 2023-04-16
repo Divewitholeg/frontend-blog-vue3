@@ -6,7 +6,6 @@ import ProductCardMobileContracted from './ProductCardMobileContracted.vue'
 defineProps<{
   content: Content
 }>()
-//const AboutMobileContracted = defineAsyncComponent(() => import('./AboutMobileContracted.vue'))
 const AboutMobileExpanded = defineAsyncComponent(() => import('./AboutMobileExpanded.vue'))
 const ProductMobile = defineAsyncComponent(() => import('./ProductMobile.vue'))
 const ExtrasMobileExpanded = defineAsyncComponent(() => import('./ExtrasMobileExpanded.vue'))
@@ -14,8 +13,6 @@ const ExtrasMobileContracted = defineAsyncComponent(() => import('./ExtrasMobile
 const ActionMobile = defineAsyncComponent(() => import('./ActionMobile.vue'))
 const CardMobileLayout = defineAsyncComponent(() => import('@/layouts/CardMobileLayout.vue'))
 const GoogleMapMobile = defineAsyncComponent(() => import('./GoogleMapMobile.vue'))
-// const AboutMobileSlow = defineAsyncComponent(() => import('./AboutMobileSlow.vue'))
-// const ProductCardMobileSlow = defineAsyncComponent(() => import('./ProductCardMobileSlow.vue'))
 const aboutActive = shallowRef(false)
 const extrasActive = shallowRef(false)
 </script>
