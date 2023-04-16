@@ -14,9 +14,16 @@ defineProps<{
           link.tags.includes('desktop') && (link.tags.includes('all') || link.tags.includes(lang))
         "
         class="mx-3"
+        :title="link.name"
       >
         <a :href="link.url">
-          <SvgLoader :name="link.icon" fill="#431407" :alt="link.name" width="25" height="25"
+          <SvgLoader
+            :name="link.icon"
+            fill="#431407"
+            :alt="link.name"
+            :aria-label="link.name"
+            width="25"
+            height="25"
         /></a>
       </div>
     </div>
